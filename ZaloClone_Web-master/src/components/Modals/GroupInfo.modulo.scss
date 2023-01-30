@@ -1,0 +1,78 @@
+.group-conversation-list {
+  display: flex;
+  flex-direction: column;
+}
+.btn_newGroup{
+  width: 100%;
+  width: 100%;
+  height: 40px;
+  border: none;
+  color: black;
+  font-size: 19px;
+}
+.btn_Save{
+ 
+    background-color: "#3777f0";
+    margin-bottom: 10px;
+    padding: 10px;
+    align-items: "center";
+    border-radius: 10px;
+  
+}
+.contentG{
+  height: 400px;
+}
+.scrollG{
+  position: relative;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.group-conversation-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  flex-direction: row;
+}
+
+.conversation-list-item:hover {
+  background: #eeeef1;
+  cursor: pointer;
+}
+
+.conversation-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.conversation-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.conversation-snippet {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+}
+.chk_Chon{
+  width: 20%;
+}
+
+.button {
+  margin-top: 30px;
+  flex-direction: row;
+}
+.admin{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+

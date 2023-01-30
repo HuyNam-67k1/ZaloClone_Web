@@ -1,0 +1,62 @@
+.conversation-list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.conversation-list-item:hover {
+  background: #eeeef1;
+  cursor: pointer;
+}
+
+.conversation-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.conversation-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.conversation-snippet {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+}
+.badge-text {
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
+
+.badge-container {
+  background-color: #FA3E3E;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 30px;
+  top: 34px;
+  border-width: 1px;
+  border-color: black;
+  bottom: 1px;
+}
+
+.new-message {
+  width: 55px;
+  position: relative;
+}
+
+/* amplify-s3-image {
+  --height: 50px;
+  --width: 50px;
+} */

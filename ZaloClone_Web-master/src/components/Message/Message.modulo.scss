@@ -1,0 +1,103 @@
+.message {
+    display: flex;
+    flex-direction: row; 
+    margin: 20px 15px;
+ 
+}
+.messright{
+    margin-right: 8px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.messleft{
+  margin-right: 8px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+ 
+}
+.message.leftContainer{
+    
+    margin-left: 10px;
+    margin-right: auto;
+    align-items: center;
+    
+  };
+.message.rightContainer{
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    align-items: center;
+  };
+.messImg{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+
+    // img {
+    //     width: 100%;
+    //     height: 100%;
+    //     object-fit: contain;
+    //     object-position: center;
+    // }
+}
+.messText {
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 20px;
+    background-color: rgb(55 74 216);
+    color: black;
+    word-wrap: break-word;
+    max-width: 500px;
+    margin-left: 10px;
+}
+
+// amplify-s3-image {
+//     --height: 50px;
+//     --width: 50px;
+//   }
+
+  .imgSize {
+    width: 500px;
+    height: 200px;
+  }
+  .word{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  .messdelete{
+    display: flex;
+    height: 70px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .messdelete_wrap{
+    display: flex;
+    flex-direction: row;
+  }
+  .btnOpenDelete{
+    border-radius: 5px;
+    background-color: white;
+    border: yellow;
+  }
+  .btnXoa{
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 5px;
+  }
+  .last-row{
+    margin-top: 10px;
+    font-size: 10px;
+    flex-direction: row;
+  }
+  
+

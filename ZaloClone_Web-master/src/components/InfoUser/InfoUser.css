@@ -1,0 +1,48 @@
+.infouser-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;  
+}
+
+.infouser-photo {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover; 
+    overflow: hidden;
+}
+
+.icon-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+
+.icon-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 20px;
+}
+
+
+  .btn-photo {
+    display: flex;
+    flex-direction: row; 
+  }
+
+  /* amplify-s3-image {
+    --height: 50px;
+    --width: 50px;
+  } */

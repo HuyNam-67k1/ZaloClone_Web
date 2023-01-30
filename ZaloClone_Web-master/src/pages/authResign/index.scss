@@ -1,0 +1,61 @@
+.container-authResign{
+    margin: auto;
+    height: 100vh;
+    background-image: url('../../assets/images/account-bg-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+.content_Auth{
+    display: flex;
+    justify-content: space-around;
+
+    background-color: white;
+    
+}
+
+.Auth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   // align-items: center;
+   margin-bottom: 80px;
+}
+.Auth_Input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.NhapCode{
+    margin-left: 10px;
+
+    margin-bottom: 10px;
+    margin-right: 20px;
+    // padding-bottom: 10px;
+}
+.NhapUser{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+.Btn{
+    margin-left: 10px;
+    margin-right: 20px;  
+    margin-top: 10px;
+    background-color: #1890ff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.AnhXacThuc{
+    width: 50%;
+}
+

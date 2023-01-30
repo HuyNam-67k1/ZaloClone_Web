@@ -1,0 +1,17 @@
+.message-list-container {
+  padding: 10px; 
+  padding-bottom: 50px; 
+   display: flex;
+  flex-direction: column-reverse; 
+  justify-content: flex-start;
+  /* height: calc(100vh - 143px); */
+
+}
+.chatbox{
+  height: calc(100vh - 143px);
+  overflow-y: scroll;
+}
+
+.toolbar-title{
+  margin-left: 10px;
+}
