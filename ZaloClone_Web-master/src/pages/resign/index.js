@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Button, Col, Row, Typography } from "antd";
 
 import IMAGE_ACCOUNT_PAGE from "../../assets/images/accountbg.png";
@@ -52,9 +52,6 @@ function Resign() {
   }, [userContextT]);
 
 
-  //Lấy uerName
-  //const userNameContext= {userContext} = useContext(AppContext);
-
   const onSignUpPressed = async (data) => {
     const { username, password, email, name } = data;
     try {
@@ -73,46 +70,6 @@ function Resign() {
       console.log("error signing in", error);
     }
   };
-
-
-    // const usernameAvailable = async (username) => {
-    //   // adapted from @herri16's solution: https://github.com/aws-amplify/amplify-js/issues/1067#issuecomment-436492775
-    //   try {
-    //     const res = await Auth.confirmSignUp(username, '000000', {
-    //       // If set to False, the API will throw an AliasExistsException error if the phone number/email used already exists as an alias with a different user
-    //       forceAliasCreation: false
-    //     });
-    //     // this should always throw an error of some kind, but if for some reason this succeeds then the user probably exists.
-    //     return false;
-    //   } catch (err) {
-    //     switch ( err.code ) {
-    //       case 'UserNotFoundException':
-    //           return true;
-    //       case 'NotAuthorizedException':
-    //           return false;
-    //       case 'AliasExistsException':
-    //           // Email alias already exists
-    //           return false;
-    //       case 'CodeMismatchException':
-    //           return false;
-    //       case 'ExpiredCodeException':
-    //           return false;
-    //       default:
-    //           return false;
-    //     }
-    //   }
-    // }
-  
-
-
-  // const available = await usernameAvailable("thuan22022001@gmail.com");
-  // console.log(`user ${available ? 'available' : 'not available'}`);   
-
-
-
-  
-
-
 
   return (
     <div className="account-common-page-resign">

@@ -1,11 +1,11 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { Alert, Button, Col, Row, Typography } from "antd";
+import {  Button, Col, Row, Typography } from "antd";
 
 import IMAGE_ACCOUNT_PAGE from "../../assets/images/accountbg.png";
 import "./login.scss";
 import CustomInput from "../../components/Custom/CustomInput";
-import { Controller, useForm } from "react-hook-form";
+import {  useForm } from "react-hook-form";
 
 import { Amplify, Auth } from "aws-amplify";
 import awsconfig from "../../aws-exports";

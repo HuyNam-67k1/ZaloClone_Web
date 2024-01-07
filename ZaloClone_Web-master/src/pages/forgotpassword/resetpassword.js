@@ -1,5 +1,5 @@
-import React, { useContext, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Button, Col, Row, Typography } from "antd";
 
 import IMAGE_ACCOUNT_PAGE from "../../assets/images/accountbg.png";

@@ -1,16 +1,16 @@
-import React, { useContext, useState } from "react";
+import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { useForm } from "react-hook-form";
+
+import { Amplify, Auth } from "aws-amplify";
+
 import { Button, Col, Row, Typography } from "antd";
 
 import IMAGE_ACCOUNT_PAGE from "../../assets/images/accountbg.png";
 import "./forgotpassword.scss";
-
-import { useForm } from "react-hook-form";
 import CustomInput from "../../components/Custom/CustomInput";
-import { Amplify, Auth } from "aws-amplify";
 import awsconfig from "../../aws-exports";
 
-import { AppContext } from "../../context/AppProvider";
 
 Amplify.configure(awsconfig);
 const { Text, Title } = Typography;

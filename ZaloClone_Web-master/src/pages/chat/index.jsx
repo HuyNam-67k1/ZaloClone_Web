@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ConversationList from "../../components/ConversationList";
 import MessageList from "../../components/MessageList";
 import Slidebar from "../../components/Slidebar";

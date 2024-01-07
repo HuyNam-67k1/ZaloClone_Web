@@ -1,12 +1,11 @@
-import Input from "rc-input";
 import React from "react";
 import "./index.scss";
 import { Button } from "antd";
 import IMAGE_ACCOUNT_PAGE from "../../assets/images/accountbg.png";
 
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import CustomInput from "../../components/Custom/CustomInput";
-import { Controller, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 
 import { Amplify, Auth } from "aws-amplify";
 import awsconfig from "../../aws-exports";
@@ -16,8 +15,7 @@ import { AppContext } from "../../context/AppProvider";
 Amplify.configure(awsconfig);
 
 function AuthResign() {
-  // const route = useRoute();
-  //Lấy UserName từ Context;
+
   const { userContext,PasswordContext } = React.useContext(AppContext);
 
   const navigate = useNavigate();
